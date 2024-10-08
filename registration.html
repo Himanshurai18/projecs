@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <h5>Please Fill Out The Form</h5>
+        <hr>
+        <form name="register" method="post" action="createuser">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter valid Email">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <label for="cpassword">ConfirmPassword</label>
+            <input type="cpassword" name="cpassword" id="cpassword">
+<p>By Creating An Account You Agree To Our <a href="#">Terms And Condition</a></p>
+<input type="submit" value="register" id="register">
+<input type="reset" value="reset" id="reset">
+        </form>
+    </div>
+    <div class="sign-in">
+        <p>Already Have An Account?<a href="#">Sign In</a></p>
+    </div>
+</body>
+</html>
